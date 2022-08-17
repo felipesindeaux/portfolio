@@ -18,16 +18,16 @@ export const GlobalStyle = createGlobalStyle`
     --color-quarternary-50: #E5E9F8;
 
     /* GREY SCALE */
-    --grey-1: #F8F9FA;
-    --grey-2: #E9ECEF;
+    --grey-0: #0A0A0B;
+    --grey-1: #121214;
+    --grey-2: #868E96;
     --grey-3: #868E96;
-    --grey-4: #212529;
+    --grey-4: #F8F9FA;
 
     /* SOCIAL MEDIAS */
     --facebook: #364FC7;
     --instagram: #CF50AC;
     --linkdin: #0E76A8;
-    --grey4: #212529;
     
     /* TYPOGRAPHY */
     --title-1: 700 38px 'IBM Plex Sans', sans-serif;
