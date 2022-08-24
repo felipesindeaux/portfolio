@@ -4,8 +4,9 @@ import { Link } from "react-scroll";
 import {
   Container,
   Content,
+  DesktopNavigator,
   HamburguerMenu,
-  Navigator,
+  MobileNavigator,
   Wrapper,
 } from "./styled";
 
@@ -30,8 +31,41 @@ const Header = () => {
             {isOpen ? <HiOutlineX /> : <HiMenu />}
           </HamburguerMenu>
         </Content>
+        <DesktopNavigator>
+          <Link
+            to="headerCopy"
+            activeClass="active"
+            spy={true}
+            offset={50}
+            smooth={true}
+            duration={500}
+            onClick={toggleMenu}
+          >
+            Início
+          </Link>
+          <Link
+            to="headerCopy2"
+            spy={true}
+            offset={-76}
+            smooth={true}
+            duration={500}
+            onClick={toggleMenu}
+          >
+            Projetos
+          </Link>
+          <Link
+            to="item"
+            spy={true}
+            offset={50}
+            smooth={true}
+            duration={500}
+            onClick={toggleMenu}
+          >
+            Contato
+          </Link>
+        </DesktopNavigator>
       </Container>
-      <Navigator isOpen={isOpen}>
+      <MobileNavigator isOpen={isOpen}>
         <Link
           to="headerCopy"
           activeClass="active"
@@ -63,7 +97,7 @@ const Header = () => {
         >
           Contato
         </Link>
-      </Navigator>
+      </MobileNavigator>
     </Wrapper>
   );
 };
