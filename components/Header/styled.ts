@@ -12,12 +12,14 @@ export const Wrapper = styled.header`
 
   @media (min-width: 750px) {
     height: 76px;
+    background-color: var(--grey-0);
+    border-bottom: 2px solid var(--color-primary);
   }
 `;
 
 export const Container = styled.div<StyledProps>`
   width: 100%;
-  padding: 0% 5%;
+  padding: 0px 25px;
   height: 76px;
   background-color: var(--grey-0);
   border-bottom: ${({ isOpen }) =>
@@ -32,6 +34,8 @@ export const Container = styled.div<StyledProps>`
     justify-content: space-between;
     align-items: center;
     max-width: 1000px;
+    border: none;
+    padding: 0px 50px;
   }
 `;
 
@@ -73,10 +77,10 @@ export const HamburguerMenu = styled.div`
   }
 `;
 
-export const Navigator = styled.nav<StyledProps>`
+export const MobileNavigator = styled.nav<StyledProps>`
   width: 100%;
-  height: ${({ isOpen }) => (isOpen ? "247px" : "0px")};
-  padding: 0% 5%;
+  height: ${({ isOpen }) => (isOpen ? "200px" : "0px")};
+  padding: 0px 25px;
   position: relative;
   top: ${({ isOpen }) => (isOpen ? "0px" : "0px")};
   background-color: var(--grey-0);
@@ -104,11 +108,44 @@ export const Navigator = styled.nav<StyledProps>`
   }
 
   @media (min-width: 750px) {
+    position: relative;
+    border: none;
+    top: -39px;
+    left: 0px;
+    background: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: auto;
     width: 280px;
     margin: 0;
+    display: none;
+  }
+`;
+
+export const DesktopNavigator = styled.nav`
+  display: none;
+
+  .active {
+    color: var(--grey-4);
+  }
+
+  a {
+    color: var(--grey-2);
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+
+    :hover {
+      color: var(--grey-4);
+    }
+  }
+
+  @media (min-width: 750px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 280px;
   }
 `;
