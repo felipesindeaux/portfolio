@@ -33,10 +33,10 @@ const Header = () => {
         </Content>
         <DesktopNavigator>
           <Link
-            to="headerCopy"
+            to="homeSection"
             activeClass="active"
             spy={true}
-            offset={50}
+            offset={0}
             smooth={true}
             duration={500}
             onClick={toggleMenu}
@@ -67,10 +67,10 @@ const Header = () => {
       </Container>
       <MobileNavigator isOpen={isOpen}>
         <Link
-          to="headerCopy"
+          to="homeSection"
           activeClass="active"
           spy={true}
-          offset={50}
+          offset={0}
           smooth={true}
           duration={500}
           onClick={toggleMenu}

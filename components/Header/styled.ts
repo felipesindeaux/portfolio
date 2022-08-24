@@ -38,6 +38,10 @@ export const Container = styled.div<StyledProps>`
     border: none;
     padding: 0px 50px;
   }
+
+  @media (min-width: 1115px) {
+    padding: 0px;
+  }
 `;
 
 export const Content = styled.div`
