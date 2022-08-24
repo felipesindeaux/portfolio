@@ -1,14 +1,11 @@
 import styled from "styled-components";
 
-import { HeaderProps } from ".";
+import { StyledProps } from ".";
 
-export const Wrapper = styled.header<HeaderProps>`
+export const Wrapper = styled.header`
   width: 100%;
-  height: ${({ isOpen }) => (isOpen ? "250px" : "76px")};
-  background-color: var(--grey-0);
-  border-bottom: 2px solid var(--color-primary);
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
   position: fixed;
   top: 0;
@@ -18,12 +15,17 @@ export const Wrapper = styled.header<HeaderProps>`
   }
 `;
 
-export const Container = styled.div`
-  width: 90%;
-  height: 100%;
+export const Container = styled.div<StyledProps>`
+  width: 100%;
+  padding: 0% 5%;
+  height: 76px;
+  background-color: var(--grey-0);
+  border-bottom: ${({ isOpen }) =>
+    isOpen ? "none" : "2px solid var(--color-primary)"};
   display: flex;
   flex-direction: column;
   justify-content: center;
+  transition: all 0.3s;
 
   @media (min-width: 750px) {
     flex-direction: row;
@@ -71,12 +73,19 @@ export const HamburguerMenu = styled.div`
   }
 `;
 
-export const Navigator = styled.nav<HeaderProps>`
-  margin-top: 35px;
-  height: 140px;
-  display: ${({ isOpen }) => (isOpen ? "flex" : "none")};
+export const Navigator = styled.nav<StyledProps>`
+  width: 100%;
+  height: ${({ isOpen }) => (isOpen ? "247px" : "0px")};
+  padding: 0% 5%;
+  position: relative;
+  top: ${({ isOpen }) => (isOpen ? "0px" : "0px")};
+  background-color: var(--grey-0);
+  border-bottom: 2px solid var(--color-primary);
+  display: flex;
+  opacity: ${({ isOpen }) => (isOpen ? "1" : "0")};
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
+  transition: all 0.3s;
 
   .active {
     color: var(--grey-4);
