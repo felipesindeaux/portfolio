@@ -12,6 +12,7 @@ export const Wrapper = styled.header<HeaderProps>`
   align-items: center;
   position: fixed;
   top: 0;
+  z-index: 2;
 
   @media (min-width: 750px) {
     height: 76px;
