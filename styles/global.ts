@@ -14,6 +14,7 @@ export const GlobalStyle = createGlobalStyle`
     --color-secondary: #50CF9A;
     --color-secondary-50: #E5F8F0;
     --color-tertiary: #FF577F;
+    --color-tertiary-50: #f8e5f3;
     --color-quarternary: #506CCF;
     --color-quarternary-50: #E5E9F8;
 
@@ -21,7 +22,7 @@ export const GlobalStyle = createGlobalStyle`
     --grey-0: #0A0A0B;
     --grey-1: #121214;
     --grey-2: #868E96;
-    --grey-3: #868E96;
+    --grey-3: #E9ECEF;
     --grey-4: #F8F9FA;
 
     /* SOCIAL MEDIAS */
@@ -39,6 +40,11 @@ export const GlobalStyle = createGlobalStyle`
     --caption: 400 12px 'Inter', sans-serif;
     --caption-bold: 700 12px 'Inter', sans-serif;
     --detail: 400 10px 'Inter', sans-serif;
+  }
+  #main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   body {
     font-size: 16px;
