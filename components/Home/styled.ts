@@ -71,11 +71,11 @@ export const BackgroundImages = styled.div`
     height: 600px;
     width: 400px;
     right: 0px;
-    top: -19px;
+    top: 0px;
     z-index: 1;
 
     div {
-      transform: matrix(1, 0.38, 0, 0.89, 0, 0);
+      transform: matrix(1, 0.31, 0, 0.89, 0, 0);
     }
   }
 `;
