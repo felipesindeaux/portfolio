@@ -13,10 +13,17 @@ export const Wrapper = styled.div`
 
 export const BackgroundContent = styled.div`
   width: 100%;
+  height: 631px;
   background-color: var(--grey-1);
-  border-bottom: 3px solid var(--color-tertiary-50);
   display: flex;
   justify-content: center;
+`;
+
+export const BottomOutline = styled.div`
+  width: 100%;
+  height: 3px;
+  background-color: var(--color-tertiary-50);
+  z-index: 2;
 `;
 
 export const Content = styled.div`
@@ -84,7 +91,7 @@ export const Buttons = styled.div`
   margin-top: 43px;
   display: flex;
 
-  button{
+  .button {
     height: 48px;
     width: 160px;
     border-radius: 8px;
@@ -98,7 +105,7 @@ export const Buttons = styled.div`
     margin-right: 16px;
   }
 
-  a{
+  a {
     color: black;
     width: 48px;
     height: 48px;
@@ -109,9 +116,9 @@ export const Buttons = styled.div`
     justify-content: center;
     cursor: pointer;
 
-    svg{
+    svg {
       width: 23px;
       height: 23px;
     }
   }
-`
+`;

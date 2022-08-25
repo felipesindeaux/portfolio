@@ -9,7 +9,7 @@ export const Wrapper = styled.header`
   align-items: center;
   position: fixed;
   top: 0;
-  z-index: 2;
+  z-index: 3;
 
   @media (min-width: 750px) {
     height: 76px;
@@ -84,7 +84,7 @@ export const HamburguerMenu = styled.div`
 
 export const MobileNavigator = styled.nav<StyledProps>`
   width: 100%;
-  height: ${({ isOpen }) => (isOpen ? "200px" : "0px")};
+  height: ${({ isOpen }) => (isOpen ? "235px" : "0px")};
   padding: 0px 25px;
   position: relative;
   top: ${({ isOpen }) => (isOpen ? "0px" : "0px")};
@@ -151,6 +151,6 @@ export const DesktopNavigator = styled.nav`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 280px;
+    width: 310px;
   }
 `;

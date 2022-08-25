@@ -36,12 +36,22 @@ const Header = () => {
             to="homeSection"
             activeClass="active"
             spy={true}
-            offset={0}
+            offset={-76}
             smooth={true}
             duration={500}
             onClick={toggleMenu}
           >
             Início
+          </Link>
+          <Link
+            to="techsSection"
+            spy={true}
+            offset={-76}
+            smooth={true}
+            duration={500}
+            onClick={toggleMenu}
+          >
+            Tecnologias
           </Link>
           <Link
             to="headerCopy2"
@@ -77,6 +87,16 @@ const Header = () => {
         >
           Início
         </Link>
+        <Link
+            to="techsSection"
+            spy={true}
+            offset={-76}
+            smooth={true}
+            duration={500}
+            onClick={toggleMenu}
+          >
+            Tecnologias
+          </Link>
         <Link
           to="headerCopy2"
           spy={true}
