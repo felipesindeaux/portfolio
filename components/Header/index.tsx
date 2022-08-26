@@ -54,7 +54,7 @@ const Header = () => {
             Tecnologias
           </Link>
           <Link
-            to="headerCopy2"
+            to="projectsSection"
             spy={true}
             offset={-76}
             smooth={true}
@@ -98,7 +98,7 @@ const Header = () => {
             Tecnologias
           </Link>
         <Link
-          to="headerCopy2"
+          to="projectsSection"
           spy={true}
           offset={-76}
           smooth={true}
