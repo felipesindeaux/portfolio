@@ -63,7 +63,7 @@ const HomeSection = () => {
             <div>
               <Image
                 src={"https://i.imgur.com/nx1l9yd.png"}
-                alt="Profile Photo"
+                alt="Project Photo"
                 height={350}
                 width={600}
               />
@@ -71,7 +71,7 @@ const HomeSection = () => {
             <div>
               <Image
                 src={"https://i.imgur.com/Q3O4PL9.png"}
-                alt="Profile Photo"
+                alt="Project Photo"
                 height={350}
                 width={600}
               />
@@ -79,7 +79,7 @@ const HomeSection = () => {
             <div>
               <Image
                 src={"https://i.imgur.com/6YRIGMa.png"}
-                alt="Profile Photo"
+                alt="Project Photo"
                 height={350}
                 width={600}
               />
