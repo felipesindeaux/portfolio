@@ -85,6 +85,7 @@ export const Icons = styled.div`
     border-radius: 50%;
     width: 48px;
     height: 48px;
+    transition: all .6s;
 
     svg {
       color: white;

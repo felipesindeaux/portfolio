@@ -107,6 +107,7 @@ export const Buttons = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all .3s;
 
     :hover{
       background-color: var(--color-primary-50);
@@ -123,6 +124,7 @@ export const Buttons = styled.div`
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    transition: all .6s;
 
     svg {
       width: 23px;

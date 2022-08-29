@@ -141,6 +141,7 @@ export const DesktopNavigator = styled.nav`
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
+    transition: all 0.3s;
 
     :hover {
       color: var(--grey-4);
