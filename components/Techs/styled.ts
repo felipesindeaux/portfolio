@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   background-color: var(--grey-0);
- 
+
   z-index: 2;
 `;
 
