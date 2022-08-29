@@ -28,7 +28,7 @@ export const GlobalStyle = createGlobalStyle`
     /* SOCIAL MEDIAS */
     --facebook: #364FC7;
     --instagram: #CF50AC;
-    --linkdin: #0E76A8;
+    --linkedin: #0E76A8;
     
     /* TYPOGRAPHY */
     --title-1: 700 38px 'IBM Plex Sans', sans-serif;
