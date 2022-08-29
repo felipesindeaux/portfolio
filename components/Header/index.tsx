@@ -56,7 +56,7 @@ const Header = () => {
           <Link
             to="projectsSection"
             spy={true}
-            offset={-76}
+            offset={-78}
             smooth={true}
             duration={500}
             onClick={toggleMenu}
@@ -64,9 +64,9 @@ const Header = () => {
             Projetos
           </Link>
           <Link
-            to="item"
+            to="contactSection"
             spy={true}
-            offset={50}
+            offset={-76}
             smooth={true}
             duration={500}
             onClick={toggleMenu}
@@ -88,15 +88,15 @@ const Header = () => {
           Início
         </Link>
         <Link
-            to="techsSection"
-            spy={true}
-            offset={-76}
-            smooth={true}
-            duration={500}
-            onClick={toggleMenu}
-          >
-            Tecnologias
-          </Link>
+          to="techsSection"
+          spy={true}
+          offset={-76}
+          smooth={true}
+          duration={500}
+          onClick={toggleMenu}
+        >
+          Tecnologias
+        </Link>
         <Link
           to="projectsSection"
           spy={true}
@@ -108,9 +108,9 @@ const Header = () => {
           Projetos
         </Link>
         <Link
-          to="item"
+          to="contactSection"
           spy={true}
-          offset={50}
+          offset={-76}
           smooth={true}
           duration={500}
           onClick={toggleMenu}

@@ -54,6 +54,7 @@ const HomeSection = () => {
                 href="https://github.com/felipesindeaux"
                 target="_blank"
                 rel="noreferrer"
+                className="gitButton"
               >
                 <AiFillGithub />
               </a>

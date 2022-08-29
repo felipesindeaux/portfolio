@@ -103,9 +103,17 @@ export const Buttons = styled.div`
     font-size: 16px;
     font-weight: 600;
     margin-right: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    :hover{
+      background-color: var(--color-primary-50);
+    }
   }
 
-  a {
+  .gitButton {
     color: black;
     width: 48px;
     height: 48px;
@@ -119,6 +127,15 @@ export const Buttons = styled.div`
     svg {
       width: 23px;
       height: 23px;
+    }
+
+    :hover{
+      background-color: transparent;
+      border: 2px solid white;
+
+      svg{
+        color: white;
+      }
     }
   }
 `;

@@ -55,7 +55,7 @@ export const DesktopDiv = styled.div`
   justify-content: space-evenly;
   height: 100%;
 
-  div{
+  div {
     display: flex;
     flex-direction: column;
     height: 80px;
@@ -67,14 +67,13 @@ export const DesktopDiv = styled.div`
     flex-direction: row;
     width: 310px;
 
-    div{
+    div {
       height: 60px;
     }
   }
-`
+`;
 
 export const Icons = styled.div`
-
   width: 256px;
   display: flex;
   justify-content: space-evenly;
@@ -94,19 +93,46 @@ export const Icons = styled.div`
     }
   }
 
-  .linkedin{
+  .linkedin {
     background-color: var(--linkedin);
-  }
 
-  .github{
-    background-color: var(--grey-4);
+    :hover {
+      background-color: transparent;
+      border: 2px solid var(--linkedin);
 
-    svg{
-      color: var(--grey-0);
+      svg {
+        color: var(--linkedin);
+      }
     }
   }
 
-  .mail{
+  .github {
+    background-color: var(--grey-4);
+
+    svg {
+      color: var(--grey-0);
+    }
+
+    :hover {
+      background-color: transparent;
+      border: 2px solid white;
+
+      svg {
+        color: white;
+      }
+    }
+  }
+
+  .mail {
     background-color: var(--color-primary);
+
+    :hover{
+      background-color: transparent;
+      border: 2px solid var(--color-primary);
+
+      svg{
+        color: var(--color-primary);
+      }
+    }
   }
 `;
