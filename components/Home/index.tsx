@@ -35,7 +35,7 @@ const HomeSection = () => {
               Eu <span>amo</span> criar e <span>desenvolver</span> projetos
             </CatchPhrase>
             <Description>
-              Descubra aqui nesse ambiente criado especialmente para você, todos
+              Descubra aqui nesse ambiente criado especialmente para você, alguns de
               meus projetos e tecnologias
             </Description>
             <Buttons>

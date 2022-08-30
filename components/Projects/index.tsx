@@ -16,7 +16,7 @@ const Projects = () => {
           <ul>
             <ProjectCard
               title="Kenzie Hub"
-              desc="Um local para registrar sua habilidades onde pode ser divida por níveis"
+              desc="Um local para registrar suas habilidades, podendo ser divida por níveis"
               img="https://i.imgur.com/79ucIkN.png"
               repo="https://github.com/felipesindeaux/kenzie-hub"
               app="https://react-entrega-s2-kenzie-hub-felipesindeaux-felipesindeaux.vercel.app/"
