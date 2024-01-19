@@ -86,7 +86,6 @@ export const Wrapper = styled.li<StyledProps>`
     transition: all 0.7s;
 
     span {
-
       font: var(--headline);
       background-color: var(--color-primary);
       padding: 5px 12px;

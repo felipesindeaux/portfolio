@@ -15,7 +15,7 @@ export const Content = styled.div`
   align-items: center;
   flex-direction: column;
 
-  h1{
+  h1 {
     font: var(--title-2);
     color: var(--grey-4);
     margin: 40px 0px;

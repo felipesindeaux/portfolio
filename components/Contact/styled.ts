@@ -85,6 +85,7 @@ export const Icons = styled.div`
     border-radius: 50%;
     width: 48px;
     height: 48px;
+    transition: all 0.6s;
 
     svg {
       color: white;
@@ -126,11 +127,11 @@ export const Icons = styled.div`
   .mail {
     background-color: var(--color-primary);
 
-    :hover{
+    :hover {
       background-color: transparent;
       border: 2px solid var(--color-primary);
 
-      svg{
+      svg {
         color: var(--color-primary);
       }
     }
