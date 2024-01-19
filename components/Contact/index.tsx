@@ -16,7 +16,7 @@ const Contact = () => {
         <DesktopDiv>
           <Image
             src={
-              "https://media-exp1.licdn.com/dms/image/C4D03AQG0wjCymSfrsA/profile-displayphoto-shrink_800_800/0/1629982945571?e=1666828800&v=beta&t=ogmNCKpNxOLCTGic7zR-YBBxKtvBdKYG2GDgXcayjYY"
+              "https://avatars.githubusercontent.com/u/116728290"
             }
             alt="Profile Photo"
             height={60}

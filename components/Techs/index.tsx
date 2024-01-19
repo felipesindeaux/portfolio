@@ -23,7 +23,12 @@ import {
   SiTypescript,
   SiVercel,
   SiWindows,
+  SiGooglecloud,
+  SiMicrosoftexcel
 } from "react-icons/si";
+import { FaVuejs, FaAws } from "react-icons/fa";
+import { SiRubyonrails, SiQuasar, SiAdonisjs, SiChartdotjs } from "react-icons/si";
+import { DiRubyRough } from "react-icons/di";
 import {
   BackEndSection,
   BottomOutline,
@@ -72,20 +77,20 @@ const Techs = () => {
                   <AiOutlineDesktop />
                 </div>
                 <div>
-                  <span>HTML</span>
-                  <SiHtml5 />
+                  <span>Vue</span>
+                  <FaVuejs />
                 </div>
                 <div>
-                  <span>CSS</span>
-                  <SiCss3 />
+                  <span>Quasar</span>
+                  <SiQuasar />
                 </div>
                 <div>
-                  <span>Javascript</span>
-                  <SiJavascript />
+                  <span>Rails</span>
+                  <SiRubyonrails />
                 </div>
                 <div>
-                  <span>Typescript</span>
-                  <SiTypescript />
+                  <span>Chart.js</span>
+                  <SiChartdotjs />
                 </div>
                 <div>
                   <span>React</span>
@@ -104,20 +109,20 @@ const Techs = () => {
                   <AiOutlineDatabase />
                 </div>
                 <div>
-                  <span>Node.js</span>
-                  <SiNodedotjs />
+                  <span>Ruby</span>
+                  <DiRubyRough />
                 </div>
                 <div>
                   <span>Express.js</span>
                   <SiExpress />
                 </div>
                 <div>
-                  <span>Prisma</span>
-                  <SiPrisma />
+                  <span>Node.js</span>
+                  <SiNodedotjs />
                 </div>
                 <div>
-                  <span>PostgreSQL</span>
-                  <SiPostgresql />
+                  <span>Adonis.js</span>
+                  <SiAdonisjs />
                 </div>
                 <div>
                   <span>Django</span>
@@ -140,20 +145,20 @@ const Techs = () => {
                   <SiLinux />
                 </div>
                 <div>
-                  <span>Windows</span>
-                  <SiWindows />
+                  <span>AWS</span>
+                  <FaAws />
                 </div>
                 <div>
-                  <span>Git</span>
-                  <SiGit />
+                  <span>Google Cloud</span>
+                  <SiGooglecloud />
                 </div>
                 <div>
                   <span>Docker</span>
                   <SiDocker />
                 </div>
                 <div>
-                  <span>Vercel</span>
-                  <SiVercel />
+                  <span>Excel</span>
+                  <SiMicrosoftexcel />
                 </div>
                 <div>
                   <span>Heroku</span>
