@@ -14,20 +14,20 @@ const Projects = () => {
         <Content>
           <h1>Projetos</h1>
           <ul>
-            <ProjectCard
-              title="Kenzie Hub"
-              desc="Um local para registrar suas habilidades, podendo ser divida por níveis"
-              img="https://i.imgur.com/79ucIkN.png"
+            {/* <ProjectCard
+              title="Rick And Morty Status"
+              desc="Status dos personagens de Rick And Morty usando a api deles"
+              img="https://i.imgur.com/CcfNwgm.png"
               repo="https://github.com/felipesindeaux/kenzie-hub"
-              app="https://react-entrega-s2-kenzie-hub-felipesindeaux-felipesindeaux.vercel.app/"
+              app="https://react-atividade-s1-buscando-mais-personagens-felipesindeaux.vercel.app/"
               categorie="React"
-            />
+            /> */}
             <ProjectCard
               title="Hamburgueria"
-              desc="Uma Hamburgueria com sistema de login e carrinho"
+              desc="Uma Hamburgueria com sistema de carrinho"
               img="https://i.imgur.com/nFiOJT2.png"
-              repo="https://github.com/felipesindeaux/hamburgueria-2.0"
-              app="https://hamburgueria-2-0.vercel.app/"
+              repo="https://github.com/felipesindeaux/hamburgueria"
+              app="https://react-entrega-s1-hamburgueria-da-kenzie-felipesindeaux.vercel.app/"
               categorie="React"
             />
             <ProjectCard
@@ -46,7 +46,7 @@ const Projects = () => {
               app="https://react-entrega-s3-kenzieshop-felipesindeaux.vercel.app/"
               categorie="React"
             />
-            <ProjectCard
+            {/* <ProjectCard
               title="Yoca"
               desc="Uma api para gerenciameto de restaurantes"
               img="https://i.imgur.com/4uMTNJF.png"
@@ -61,7 +61,7 @@ const Projects = () => {
               repo="https://github.com/felipesindeaux/avalanche-cursos"
               app="https://avalanche-cursos.herokuapp.com/api/docs/"
               categorie="Django"
-            />
+            /> */}
           </ul>
         </Content>
       </Wrapper>
